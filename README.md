@@ -298,7 +298,7 @@ $ ansible-playbook -i hosts nginx.yml
 
 Протестируйте сайт curl -v <публичный IP балансера>:80
 
-![alt text](./curl.png)
+![alt text](./img/curl.png)
 
 ![alt](./img/load-bal.png)
 
