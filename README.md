@@ -294,7 +294,7 @@ $ ansible-playbook -i hosts nginx.yml
 
 ![alt text](./img/ansible-playbook%20-i%20hosts%20nginx.png)
 
-сайт доступен по адресу http://158.160.165.9
+сайт доступен по адресу http://51.250.42.15/
 
 Протестируйте сайт curl -v <публичный IP балансера>:80
 
@@ -311,7 +311,7 @@ $ ansible-playbook -i hosts zabbix-server.yml
 после установки zabbix-server доступен по адресу
 
 ```
-http://158.160.158.72:8080/
+http://51.250.42.15:8080
 ```
 
 ![alt text](./img/web%20zabbix.png)
