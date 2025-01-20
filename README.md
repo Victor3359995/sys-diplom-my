@@ -311,7 +311,7 @@ $ ansible-playbook -i hosts zabbix-server.yml
 после установки zabbix-server доступен по адресу
 
 ```
-http://51.250.42.15:8080
+[http://51.250.42.15:8080](http://84.252.133.109:8080/)
 ```
 
 ![alt text](./img/web%20zabbix.png)
