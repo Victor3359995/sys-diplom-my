@@ -310,7 +310,7 @@ $ ansible-playbook -i hosts zabbix-server.yml
 после установки zabbix-server доступен по адресу
 
 ```
-http://158.160.163.226:8080/
+http://158.160.159.120:8080/
 ```
 
 ![alt text](./img/web%20zabbix.png)
@@ -343,7 +343,7 @@ ansible-playbook -i hosts kibana.yml
 после установки kibana-server доступен по адресу
 
 ```
-http://158.160.135.80:5601/
+http://158.160.165.239:5601/
 ```
 ![alt](./img/elasticweb.png)
 
