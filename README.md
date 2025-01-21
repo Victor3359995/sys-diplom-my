@@ -294,13 +294,12 @@ $ ansible-playbook -i hosts nginx.yml
 
 ![alt text](./img/ansible-playbook%20-i%20hosts%20nginx.png)
 
-сайт доступен по адресу http://51.250.42.15/
+сайт доступен по адресу http://158.160.159.247/
 
 Протестируйте сайт curl -v <публичный IP балансера>:80
 
 ![alt text](./img/curl.png)
 
-![alt](./img/load-bal.png)
 
 устанавливаем zabbix-server
 
@@ -311,7 +310,7 @@ $ ansible-playbook -i hosts zabbix-server.yml
 после установки zabbix-server доступен по адресу
 
 ```
-[http://51.250.42.15:8080](http://84.252.133.109:8080/)
+http://158.160.163.226:8080/
 ```
 
 ![alt text](./img/web%20zabbix.png)
@@ -344,7 +343,7 @@ ansible-playbook -i hosts kibana.yml
 после установки kibana-server доступен по адресу
 
 ```
-http://158.160.143.229:5601/
+http://158.160.135.80:5601/
 ```
 ![alt](./img/elasticweb.png)
 
