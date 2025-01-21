@@ -51,6 +51,8 @@ resource "yandex_vpc_subnet" "subnet-bastion" {
   
 }
 ```
+
+![alt text](./img/console.png) 
 ![alt text](./img/karta.png) 
 
 Описываем в конфигурационном файле параметры ресурсов виртуальных машин, которые необходимо создать:
